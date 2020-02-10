@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/6f92449565.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Soft UI</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="nav-brand">Soft <span>UI</span></a>
+          <div class="menu-toggler">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="main-content text-center">
+              <h1 class="main-heading">iPhone X</h1>
+              <p class="main-p m-0">Pro camera. Beautiful. Performance.</p>
+              <img src="/images/iphonex.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const openMenu = document.querySelector('.menu-toggler');
+      const navList = document.querySelector('.nav-list');
+
+      openMenu.addEventListener('click', () => {
+        navList.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
