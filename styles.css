@@ -134,3 +134,74 @@ a.nav-brand span:hover {
 img {
   width: 80%;
 }
+
+/* CLOSER LOOK SECTION */
+.light-bg {
+  background-color: #dae1eb;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.btn-soft {
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.btn-soft.light {
+  box-shadow: var(--shadow-normal-light);
+  color: #000;
+}
+
+.btn-soft.light:hover,
+.btn-soft.light:focus {
+  box-shadow: var(--shadow-inset-light);
+}
+
+/* SHARP CONTRAST */
+.sharp-contrast {
+  background-image: var(--background-color);
+  color: var(--light-font-color);
+}
+
+.btn-soft.dark {
+  box-shadow: var(--shadow-normal);
+}
+
+.btn-soft.dark:hover,
+.btn-soft.dark:focus {
+  box-shadow: var(--shadow-inset);
+}
+
+/* FEATURES */
+.features-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: var(--shadow-normal-light);
+}
+
+.features-item:hover {
+  box-shadow: var(--shadow-inset-light);
+}
+
+.item-icon i {
+  font-size: 30px;
+  color: #c92b7d;
+  margin-right: 30px;
+}
+
+.item-text h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  color: #313131;
+}
+
+.item-text p {
+  margin: 0;
+}
